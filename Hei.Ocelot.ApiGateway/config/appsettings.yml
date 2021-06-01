@@ -7,7 +7,7 @@ AllowedHosts: '*'
 AddAdministration:
   Path: /administration
   IdentityServer:
-    Authority: 'http://172.16.3.117:5100'
+    Authority: 'http://127.0.0.1:5100'
     ApiName: ocelot
-    RequireHttpsMetadata: false
     ApiSecret: secret
+    RequireHttpsMetadata: false
